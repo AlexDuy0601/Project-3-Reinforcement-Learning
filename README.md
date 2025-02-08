@@ -87,19 +87,36 @@ This heuristic is used to solve the problem where Pacman must collect all the fo
 Command to test:
 
 python pacman.py -l trickySearch -p AStarFoodSearchAgent
+
 How to Run the Project
+
 Download the project files from the course website.
+
 Unzip the files and navigate to the project directory.
+
 You can run the Pacman game using the following command:
+
 python pacman.py
+
 To test your search algorithms, run the following commands:
 For DFS:
+
+
 python pacman.py -l tinyMaze -p SearchAgent -a fn=dfs
+
 For BFS:
+
 python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
+
 For UCS:
+
 python pacman.py -l mediumMaze -p SearchAgent -a fn=ucs
+
+
 For A*:
+
 python pacman.py -l bigMaze -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic
+
 Acknowledgments
+
 This project is based on UC Berkeley's CS188: Introduction to Artificial Intelligence. All the materials provided in this repository are for educational purposes.
